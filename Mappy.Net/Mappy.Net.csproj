@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Mappy.Net</Title>
+        <Authors>Marcel-Baumgartner</Authors>
+        <Description>Mappy.Net is a little object mapper. Mappy.Net converts all property names to
+an id and transfers the value of the input to the output object.</Description>
+        <Copyright>Marcel-Baumgartner</Copyright>
+        <PackageProjectUrl>https://github.com/Marcel-Baumgartner/Mappy.Net</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Marcel-Baumgartner/Mappy.Net</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>mapper,csharp</PackageTags>
+    </PropertyGroup>
+
+</Project>
