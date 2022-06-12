@@ -8,4 +8,9 @@ public class Mapper
     {
         return DefaultMapper.Map<T>(data);
     }
+
+    public static T Map<T>(T source, object data)
+    {
+        return DefaultMapper.Map<T>(source, data);
+    }
 }
